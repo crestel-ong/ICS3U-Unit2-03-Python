@@ -7,21 +7,20 @@
 
 import constants
 
+
 def main():
     # this function calculates circumfrance
 
-# input 
+    # input
     radius = int(input("Enter length of the radius (mm): "))
-    
-# process
+
+    # process
     circumfrance = constants.TAU * radius
 
-# output
+    # output
     print("The circumfrance is {} mm².".format(circumfrance))
     print("\nDone.")
 
 
 if __name__ == "__main__":
     main()
-
-
